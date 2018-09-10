@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="exporter-version" content="Evernote Mac 7.2.1 (456793)"/><meta name="keywords" content="MongoDB"/><meta name="created" content="2018-09-10 11:15:49 +0000"/><meta name="source" content="web.clip7"/><meta name="source-application" content="WebClipper 7"/><meta name="source-url" content="http://www.runoob.com/mongodb/mongodb-delete-collection.html"/><meta name="updated" content="2018-09-10 11:15:49 +0000"/><title>MongoDB 删除集合</title></head><body>
+  <div>
+<div style="font-size: 16px; display: inline-block;  min-width: 100%;position: relative;"><div style="font-size:62.5%;"><div style="font-size:1.2em;font-family:&quot;Helvetica Neue&quot;, Helvetica, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, Arial, sans-serif;-webkit-font-smoothing:antialiased;background:url(./assets/img/bg.gif) no-repeat rgb(246, 246, 246);color:rgb(51, 51, 51);"><div><div style="min-width:755px;overflow:hidden;"><div><div style="background:rgb(255, 255, 255);border-image:initial;"><div><div>
+			
+			<h1 style="border:0px;padding:0px;margin:0px 0px 10px;font-size:2.1em;color:rgb(0, 0, 0);text-decoration:none;text-indent:initial;">MongoDB 删除集合</h1>
+<p style="border:0px;margin:0px;padding:0px;line-height:2em;word-wrap:break-word;word-break:break-all;font-size:13px;font-family:&quot;Helvetica Neue&quot;, Helvetica, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, Arial, sans-serif;">本章节我们为大家介绍如何使用 MongoDB 来删除集合。</p>
+
+<p style="border:0px;margin:0px;padding:0px;line-height:2em;word-wrap:break-word;word-break:break-all;font-size:13px;font-family:&quot;Helvetica Neue&quot;, Helvetica, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, Arial, sans-serif;">MongoDB 中使用 drop() 方法来删除集合。</p>
+<p style="border:0px;margin:0px;padding:0px;line-height:2em;word-wrap:break-word;word-break:break-all;font-size:13px;font-family:&quot;Helvetica Neue&quot;, Helvetica, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, Arial, sans-serif;"><strong style="border:0px;margin:0px;padding:0px;">语法格式：</strong></p>
+
+<pre style="word-wrap:break-word;border:0px;border-image:initial;font:12px/20px Menlo, Monaco, Consolas, &quot;Andale Mono&quot;, &quot;lucida console&quot;, &quot;Courier New&quot;, monospace;white-space:pre-wrap;word-break:break-all;margin:15px auto;border-width:1px 1px 1px 4px;border-style:solid;border-color:rgb(221, 221, 221);background:url(/images/codecolorer_bg.gif) center top rgb(251, 251, 251);padding:10px 15px;"><span style="border:0px;margin:0px;padding:0px;color:rgb(0, 0, 0);">db</span><span style="border:0px;margin:0px;padding:0px;color:rgb(102, 102, 0);">.</span><span style="border:0px;margin:0px;padding:0px;color:rgb(0, 0, 0);">collection</span><span style="border:0px;margin:0px;padding:0px;color:rgb(102, 102, 0);">.</span><span style="border:0px;margin:0px;padding:0px;color:rgb(0, 0, 0);">drop</span><span style="border:0px;margin:0px;padding:0px;color:rgb(102, 102, 0);">()</span></pre>
+
+<p style="border:0px;margin:0px;padding:0px;line-height:2em;word-wrap:break-word;word-break:break-all;font-size:13px;font-family:&quot;Helvetica Neue&quot;, Helvetica, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, Arial, sans-serif;">参数说明：</p>
+<ul style="border:0px;list-style:none;margin:0px;padding:0px;line-height:140%;list-style-type:none;margin-top:1em;margin-bottom:1em;">
+<li style="background-size:auto 8px;list-style-type:none;background-repeat:no-repeat;background-position:left 0.5em;padding:0px 0px 0px 1.5em;background-image:url(./assets/img/bullet.png);border:0px;margin:0px 0px 1em 1em;line-height:1.5em;font-size:13px;word-break:break-all;">无</li>
+</ul>
+
+<p style="border:0px;margin:0px;padding:0px;line-height:2em;word-wrap:break-word;word-break:break-all;font-size:13px;font-family:&quot;Helvetica Neue&quot;, Helvetica, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, Arial, sans-serif;"><strong style="border:0px;margin:0px;padding:0px;">返回值</strong></p>
+<p style="border:0px;margin:0px;padding:0px;line-height:2em;word-wrap:break-word;word-break:break-all;font-size:13px;font-family:&quot;Helvetica Neue&quot;, Helvetica, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, Arial, sans-serif;">如果成功删除选定集合，则 drop() 方法返回 true，否则返回 false。</p>
+<h3 style="border:0px;padding:0px;margin:8px 0px;font-size:1.4em;font-weight:700;">实例</h3>
+<p style="border:0px;margin:0px;padding:0px;line-height:2em;word-wrap:break-word;word-break:break-all;font-size:13px;font-family:&quot;Helvetica Neue&quot;, Helvetica, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, Arial, sans-serif;">在数据库 mydb 中，我们可以先通过 <span style="border:0px;margin:0px;padding:0.2em;background-color:rgb(236, 234, 230);border-radius:3px;font-weight:bold;font-family:SFMono-Regular, Consolas, &quot;Liberation Mono&quot;, Menlo, Courier, monospace;">show collections</span> 命令查看已存在的集合：</p>
+<pre style="word-wrap:break-word;border:0px;border-image:initial;font:12px/20px Menlo, Monaco, Consolas, &quot;Andale Mono&quot;, &quot;lucida console&quot;, &quot;Courier New&quot;, monospace;white-space:pre-wrap;word-break:break-all;margin:15px auto;border-width:1px 1px 1px 4px;border-style:solid;border-color:rgb(221, 221, 221);background:url(/images/codecolorer_bg.gif) center top rgb(251, 251, 251);padding:10px 15px;"><span style="border:0px;margin:0px;padding:0px;color:rgb(102, 102, 0);">&gt;</span><span style="border:0px;margin:0px;padding:0px;color:rgb(0, 0, 136);">use</span><span style="border:0px;margin:0px;padding:0px;color:rgb(0, 0, 0);"> mydb
+switched to db mydb
+</span><span style="border:0px;margin:0px;padding:0px;color:rgb(102, 102, 0);">&gt;</span><span style="border:0px;margin:0px;padding:0px;color:rgb(0, 0, 0);">show collections
+mycol
+mycol2
+system</span><span style="border:0px;margin:0px;padding:0px;color:rgb(102, 102, 0);">.</span><span style="border:0px;margin:0px;padding:0px;color:rgb(0, 0, 0);">indexes
+runoob
+</span><span style="border:0px;margin:0px;padding:0px;color:rgb(102, 102, 0);">&gt;</span></pre>
+
+
+<p style="border:0px;margin:0px;padding:0px;line-height:2em;word-wrap:break-word;word-break:break-all;font-size:13px;font-family:&quot;Helvetica Neue&quot;, Helvetica, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, Arial, sans-serif;">接着删除集合 mycol2 : </p>
+<pre style="word-wrap:break-word;border:0px;border-image:initial;font:12px/20px Menlo, Monaco, Consolas, &quot;Andale Mono&quot;, &quot;lucida console&quot;, &quot;Courier New&quot;, monospace;white-space:pre-wrap;word-break:break-all;margin:15px auto;border-width:1px 1px 1px 4px;border-style:solid;border-color:rgb(221, 221, 221);background:url(/images/codecolorer_bg.gif) center top rgb(251, 251, 251);padding:10px 15px;"><span style="border:0px;margin:0px;padding:0px;color:rgb(102, 102, 0);">&gt;</span><span style="border:0px;margin:0px;padding:0px;color:rgb(0, 0, 0);">db</span><span style="border:0px;margin:0px;padding:0px;color:rgb(102, 102, 0);">.</span><span style="border:0px;margin:0px;padding:0px;color:rgb(0, 0, 0);">mycol2</span><span style="border:0px;margin:0px;padding:0px;color:rgb(102, 102, 0);">.</span><span style="border:0px;margin:0px;padding:0px;color:rgb(0, 0, 0);">drop</span><span style="border:0px;margin:0px;padding:0px;color:rgb(102, 102, 0);">()</span><span style="border:0px;margin:0px;padding:0px;color:rgb(0, 0, 0);"
+/><span style="border:0px;margin:0px;padding:0px;color:rgb(0, 0, 136);">true</span><span style="border:0px;margin:0px;padding:0px;color:rgb(0, 0, 0);"
+/><span style="border:0px;margin:0px;padding:0px;color:rgb(102, 102, 0);">&gt;</span></pre>
+
+<p style="border:0px;margin:0px;padding:0px;line-height:2em;word-wrap:break-word;word-break:break-all;font-size:13px;font-family:&quot;Helvetica Neue&quot;, Helvetica, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, Arial, sans-serif;">通过 show collections 再次查看数据库 mydb 中的集合：</p>
+
+
+<pre style="word-wrap:break-word;border:0px;border-image:initial;font:12px/20px Menlo, Monaco, Consolas, &quot;Andale Mono&quot;, &quot;lucida console&quot;, &quot;Courier New&quot;, monospace;white-space:pre-wrap;word-break:break-all;margin:15px auto;border-width:1px 1px 1px 4px;border-style:solid;border-color:rgb(221, 221, 221);background:url(/images/codecolorer_bg.gif) center top rgb(251, 251, 251);padding:10px 15px;"><span style="border:0px;margin:0px;padding:0px;color:rgb(102, 102, 0);">&gt;</span><span style="border:0px;margin:0px;padding:0px;color:rgb(0, 0, 0);">show collections
+mycol
+system</span><span style="border:0px;margin:0px;padding:0px;color:rgb(102, 102, 0);">.</span><span style="border:0px;margin:0px;padding:0px;color:rgb(0, 0, 0);">indexes
+runoob
+</span><span style="border:0px;margin:0px;padding:0px;color:rgb(102, 102, 0);">&gt;</span></pre>
+<p style="border:0px;margin:0px;padding:0px;line-height:2em;word-wrap:break-word;word-break:break-all;font-size:13px;font-family:&quot;Helvetica Neue&quot;, Helvetica, &quot;PingFang SC&quot;, &quot;Hiragino Sans GB&quot;, &quot;Microsoft YaHei&quot;, &quot;Noto Sans CJK SC&quot;, &quot;WenQuanYi Micro Hei&quot;, Arial, sans-serif;">从结果中可以看出 mycol2 集合已被删除。</p>			
+			
+			</div></div></div></div></div></div></div></div></div>
+</div>
+</body></html>
